@@ -1,0 +1,17 @@
+# Program: Hands-on Zip
+
+# Two lists
+list1 = [10, 20, 30, 40]
+list2 = ['A', 'B', 'C', 'D']
+
+# 1. Zipped list from two lists
+zipped_list = list(zip(list1, list2))
+print("1. Zipped List:", zipped_list)
+
+# 2. Zip two lines but 2nd list in reverse order
+zipped_reverse = list(zip(list1, reversed(list2)))
+print("2. Zipped with 2nd list reversed:", zipped_reverse)
+
+# 3. Zip two lists into a dictionary
+zipped_dict = dict(zip(list1, list2))
+print("3. Zipped Dictionary:", zipped_dict)
